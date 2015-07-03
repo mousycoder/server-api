@@ -5,6 +5,7 @@
 	<artifactId>server-api</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
+	<description>This is server api project!</description>
 
 	<properties>
 		<java-version>1.7</java-version>
@@ -25,18 +26,27 @@
 			<version>2.4.2</version>
 		</dependency>
 		<!-- swagger-mvc -->
+
+		<!-- slfj4 -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.7</version>
+		</dependency>
+		<!-- slfj4 -->
 	</dependencies>
 
 	<build>
-	<!-- 指定maven编译的jdk版本,如果不指定,maven3默认用jdk 1.5 maven2默认用jdk1.3 -->
+		<!-- 指定maven编译的jdk版本,如果不指定,maven3默认用jdk 1.5 maven2默认用jdk1.3 -->
 		<plugins>
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
 				<configuration>
 					<source>1.7</source>
 					<target>1.7</target>
-					<encoding>UTF8</encoding> 
+					<encoding>UTF8</encoding>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -47,6 +57,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-	<finalName>${project.artifactId}</finalName>
+		<finalName>${project.artifactId}</finalName>
 	</build>
 </project>
