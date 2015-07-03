@@ -42,7 +42,7 @@ git checkout develop
 
 ### 启动项目
 
-- `maven install`
+- `maven clean install`
 - 右键Run As-> Run on server (前提配置好tomcat)
 
 
