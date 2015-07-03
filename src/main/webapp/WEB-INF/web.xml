@@ -20,8 +20,6 @@
      </listener>
      <!-- Spring配置文件结束 -->
 
-
-
     <servlet>
         <servlet-name>mousycoder</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
