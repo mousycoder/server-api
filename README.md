@@ -4,7 +4,8 @@
 
 # 特色
 
-- 完美支持spring,采用注解编写文档
+- 完美融合Spring3.2.9+,采用注解编写文档
+- 最简项目架构，方便快速上手，排除其他干扰
 - 免费的技术支持
 
 # 部署
@@ -17,37 +18,43 @@
 
 ## 构建项目
 ### 获取源代码
+
+#### 如果你只是使用
+
 ```
 git clone git@github.com:mousycoder/server-api.git
+
 git checkout release
 ```
 
-确保您正确的切换到release分支。
+#### 如果你也想和我一起开发
+
+```
+git clone git@github.com:mousycoder/server-api.git
+
+git checkout develop
+```
+
 
 ### 导入到IDE
 以Eclipse为例，在File->Import->Existing Maven Projects,将server-api项目导入进来。
 
 
-### 修改项目编码
-项目右键Properties->Resource->Text file encoding->other改成utf-8
-
-### 转成web项目
-项目右键Properties->Project Facets->勾选 Dynamic Web Module 3.0 、Java 1.7->
-点击Further configuration available->Next->修改content directory的值由WebContent
-改为src/main/webapp->ok->ok
-
 ### 启动项目
+
 - `maven install`
-- 打包后的war包部署到tomcat中启动即可。
+- 右键Run As-> Run on server (前提配置好tomcat)
 
 
 # 技术支持
 
+
 - Issues(推荐):[提交您的Issue](https://github.com/mousycoder/server-api/issues)
 - QQ技术支持群： <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=1ee1e533b44ef916dd09742b52472317a54eb00880127d4f4c6f1ec06e4397e3"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Java 交流群" title="Java 交流群"> 70812183</a>
+- 注解API:[官方文档](http://docs.swagger.io/swagger-core/apidocs/index.html)
 - 个人博客:[@mousycoder](http://huhao520.com)
 
-# 让我们一起为后台接口文档，做出一份努力吧！
+# 让我们一起为后台接口文档，做出一份努力吧，让我们后端程序猿更加专注技术研究吧！！！
 
 
 
