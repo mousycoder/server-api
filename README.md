@@ -45,6 +45,9 @@ git checkout develop
 - `maven clean install`
 - 右键Run As-> Run on server (前提配置好tomcat)
 
+### 日志
+- 改变日志级别 src/main/resources->log4j.properties->`log4j.rootLogger=DEBUG, Console`改成ERROR级别 默认是debug调试级别
+
 
 # 技术支持
 
