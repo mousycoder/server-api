@@ -24,16 +24,16 @@
 ```
 git clone git@github.com:mousycoder/server-api.git
 
-git checkout release
+git checkout master
 ```
 
 #### 如果你也想和我一起开发
+- 先Fork
+- PR一下我的最新代码(develop分支)
+- 贡献代码
+- PR你的代码到我的仓库
 
-```
-git clone git@github.com:mousycoder/server-api.git
-
-git checkout develop
-```
+若是好的建议和方案，你将会在作者的仓库看到你贡献的代码，这将是多么让人兴奋的事情。
 
 
 ### 导入到IDE
@@ -58,7 +58,7 @@ git checkout develop
 - 个人博客:[@mousycoder](http://huhao520.com)
 
 # 让我们一起为后台接口文档，做出一份努力吧，让我们后端程序猿更加专注技术研究吧！！！
-
+111
 
 
 
