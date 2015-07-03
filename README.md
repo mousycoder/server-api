@@ -28,6 +28,14 @@ git checkout release
 以Eclipse为例，在File->Import->Existing Maven Projects,将server-api项目导入进来。
 
 
+### 修改项目编码
+项目右键Properties->Resource->Text file encoding->other改成utf-8
+
+### 转成web项目
+项目右键Properties->Project Facets->勾选 Dynamic Web Module 3.0 、Java 1.7->
+点击Further configuration available->Next->修改content directory的值由WebContent
+改为src/main/webapp->ok->ok
+
 ### 启动项目
 - `maven install`
 - 打包后的war包部署到tomcat中启动即可。
