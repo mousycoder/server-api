@@ -55,7 +55,7 @@ git checkout master
 - Issues(推荐):[提交您的Issue](https://github.com/mousycoder/server-api/issues)
 - QQ技术支持群： <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=1ee1e533b44ef916dd09742b52472317a54eb00880127d4f4c6f1ec06e4397e3"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Java 交流群" title="Java 交流群"> 70812183</a>
 - 注解API:[官方文档](http://docs.swagger.io/swagger-core/apidocs/index.html)
-- 个人博客:[@mousycoder](http://huhao520.com)
+- 个人博客:[@mousycoder](http://mousycoder.com)
 
 # 让我们一起为后台接口文档，做出一份努力吧，让我们后端程序猿更加专注技术研究吧！！！
 
